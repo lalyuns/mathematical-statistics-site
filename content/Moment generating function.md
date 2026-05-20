@@ -27,4 +27,12 @@ $$
 M_{X+Y}(t)=M_X(t)M_Y(t).
 $$
 
-Related: [[Central limit theorem]], [[Midterm problem - sum of independent Poissons]], [[Midterm problem - binomial MGF to Poisson MGF]].
+If $M_X(t)$ exists near $0$, its derivatives at $0$ recover moments:
+
+$$
+M_X'(0)=E[X],\qquad M_X''(0)=E[X^2].
+$$
+
+For iid sums, this product rule is what makes the MGF proof of [[Central limit theorem]] work.
+
+Related: [[MGF continuity theorem]], [[Central limit theorem]], [[Midterm problem - sum of independent Poissons]], [[Midterm problem - binomial MGF to Poisson MGF]].

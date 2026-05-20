@@ -27,5 +27,6 @@ Start from [[Statistical foundations MOC]].
 - [[Expectation]]
 - [[Moment generating function]]
 - [[Conditional expectation]]
+- [[Law of total expectation]]
 - [[Law of total variance]]
 - [[Delta method]]

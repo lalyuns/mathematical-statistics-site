@@ -30,4 +30,6 @@ A Taylor approximation gives
 
 $$\frac{1}{\bar X}\sum_{i=1}^n(X_i-\bar X)^2\approx\chi^2_{n-1}.$$
 
-Related: [[Likelihood ratio test]], [[Asymptotic test]].
+The approximation is the same local quadratic idea as [[Pearson chi-square approximation]]: the likelihood deviance becomes a squared-deviation statistic near the null model.
+
+Related: [[Likelihood ratio test]], [[Pearson chi-square approximation]], [[Asymptotic test]].

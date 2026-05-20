@@ -25,4 +25,6 @@ for every $0\le\alpha\le1$.
 
 Then the rule $p(X)\le\alpha$ is a [[Level alpha test]].
 
-Related: [[Tail probability p-value]].
+The definition is exactly the type-I-error control condition for the test that rejects when $p(X)\le\alpha$.
+
+Related: [[Tail probability p-value]], [[Observed significance level]].

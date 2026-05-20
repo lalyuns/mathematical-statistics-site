@@ -5,7 +5,7 @@ aliases:
 categories:
   - "[[Evergreen]]"
 topics:
-  - "[[Confidence sets]]"
+  - "[[Confidence set]]"
 tags:
   - statistics
   - confidence-sets

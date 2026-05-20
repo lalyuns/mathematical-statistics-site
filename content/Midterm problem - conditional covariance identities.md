@@ -79,6 +79,6 @@ $$
 ## Linked knowledge
 
 - [[Conditional expectation]]
+- [[Law of total expectation]]
 - [[Law of total variance]]
 - [[Expectation]]
-

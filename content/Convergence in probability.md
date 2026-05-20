@@ -9,6 +9,8 @@ tags:
   - convergence
 source:
   - "[[Topic 3 revised]]"
+pages:
+  - Topic 3_revised_page_005.png
 ---
 
 # Convergence in probability
@@ -23,4 +25,6 @@ for every $\varepsilon>0$.
 
 Consistency of an estimator is convergence in probability to the target parameter.
 
-Related: [[Weak law of large numbers]], [[Asymptotic test]].
+[[Convergence almost surely]] implies convergence in probability, but not conversely in general.
+
+Related: [[Weak law of large numbers]], [[Strong law of large numbers]], [[Asymptotic test]].

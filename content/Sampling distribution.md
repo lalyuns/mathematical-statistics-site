@@ -9,6 +9,8 @@ tags:
   - sampling
 source:
   - "[[Topic 3 revised]]"
+pages:
+  - Topic 3_revised_page_001.png
 ---
 
 # Sampling distribution
@@ -17,4 +19,4 @@ The [[Sampling distribution]] of a statistic is the probability distribution of 
 
 Examples include the distribution of $\bar X$, $S^2$, $t$ statistics, and likelihood-based estimators.
 
-Related: [[Normal sample distributions]], [[Exact test]], [[Asymptotic test]].
+Related: [[Statistic]], [[Normal sample distributions]], [[Exact test]], [[Asymptotic test]].

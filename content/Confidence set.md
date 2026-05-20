@@ -5,7 +5,7 @@ aliases:
 categories:
   - "[[Evergreen]]"
 topics:
-  - "[[Confidence sets]]"
+  - "[[Confidence set]]"
 tags:
   - statistics
   - confidence-sets
@@ -23,4 +23,6 @@ $$\inf_\theta P_\theta(\theta\in C(X))=1-\alpha.$$
 
 The infimum makes the coefficient a worst-case [[Coverage probability]].
 
-Related: [[Test inversion]], [[t confidence interval]].
+Confidence sets can be built by inverting acceptance regions of tests. See [[Test confidence duality]].
+
+Related: [[Test inversion]], [[Test confidence duality]], [[t confidence interval]].

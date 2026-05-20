@@ -25,4 +25,6 @@ $$\lambda(x)=\frac{\sup_{\theta\in\Theta_0}L(\theta)}{\sup_{\theta\in\Theta}L(\t
 
 Small values mean the restricted model explains the data poorly relative to the full model.
 
-Related: [[Likelihood ratio test]], [[Wilks theorem]].
+If a sufficient statistic exists, the non-parameter part of the likelihood cancels in the ratio. See [[LRT depends on sufficient statistic]].
+
+Related: [[Likelihood ratio test]], [[LRT depends on sufficient statistic]], [[Wilks theorem]].

@@ -9,6 +9,9 @@ tags:
   - normal-theory
 source:
   - "[[Topic 3 revised]]"
+pages:
+  - Topic 3_revised_page_002.png
+  - Topic 3_revised_page_003.png
 ---
 
 # Normal sample distributions
@@ -24,3 +27,5 @@ $$
 and $\bar X$ is independent of $S^2$.
 
 These facts produce the [[t distribution]] used in [[t confidence interval]].
+
+For the proof skeleton with the missing MGF and orthogonal-decomposition steps filled in, see [[Normal sample theorem]].

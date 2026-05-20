@@ -26,4 +26,6 @@ under $H_0$.
 
 [[Wilks theorem]] turns [[Likelihood ratio test]] into a general [[Asymptotic test]]. Large $-2\log\lambda$ rejects the null. The degrees of freedom are the dimension lost by imposing the null restriction.
 
-Related: [[Multinomial LRT]], [[Normal mean LRT with unknown variance]].
+The theorem is the large-sample reason LRT rejection regions often use chi-square critical values even when the exact finite-sample distribution is hard.
+
+Related: [[Multinomial LRT]], [[Pearson chi-square approximation]], [[Normal mean LRT with unknown variance]].

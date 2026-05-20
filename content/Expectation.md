@@ -21,4 +21,4 @@ $$
 E[g(X)]=\int g(x)f_X(x)\,dx.
 $$
 
-Related: [[Conditional expectation]], [[Moment generating function]], [[Tail integral formula]].
+Related: [[Conditional expectation]], [[Law of total expectation]], [[Moment generating function]], [[Tail integral formula]].

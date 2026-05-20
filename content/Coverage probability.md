@@ -3,7 +3,7 @@ created: 2026-05-21
 categories:
   - "[[Evergreen]]"
 topics:
-  - "[[Confidence sets]]"
+  - "[[Confidence set]]"
 tags:
   - statistics
   - confidence-sets

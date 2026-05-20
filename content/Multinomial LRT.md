@@ -28,3 +28,5 @@ A Taylor expansion gives Pearson's chi-square statistic:
 $$\sum_{j=1}^m\frac{(O_j-E_j)^2}{E_j}.$$
 
 This is [[Wilks theorem]] in the multinomial goodness-of-fit setting.
+
+For the missing Taylor steps, see [[Pearson chi-square approximation]].

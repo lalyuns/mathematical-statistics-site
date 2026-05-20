@@ -58,6 +58,7 @@ parent:
 
 - [[Likelihood ratio statistic]]
 - [[Likelihood ratio test]]
+- [[LRT depends on sufficient statistic]]
 - [[Neyman-Pearson lemma]]
 - [[Most powerful test]]
 - [[LR rejection region sign argument]]
@@ -69,11 +70,13 @@ parent:
 - [[Exact test]]
 - [[Normal mean LRT with unknown variance]]
 - [[Multinomial LRT]]
+- [[Pearson chi-square approximation]]
 - [[Poisson dispersion test]]
 
 ## p-values
 
 - [[p-value]]
+- [[Observed significance level]]
 - [[Valid p-value]]
 - [[Tail probability p-value]]
 
@@ -81,6 +84,7 @@ parent:
 
 - [[Confidence set]]
 - [[Test inversion]]
+- [[Test confidence duality]]
 - [[t confidence interval]]
 
 ## Quiz applications

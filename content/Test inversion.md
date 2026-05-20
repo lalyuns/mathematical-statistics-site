@@ -6,7 +6,7 @@ aliases:
 categories:
   - "[[Evergreen]]"
 topics:
-  - "[[Confidence sets]]"
+  - "[[Confidence set]]"
 tags:
   - statistics
   - confidence-sets
@@ -27,3 +27,5 @@ $$C(x)=\{\theta_0:x\in A(\theta_0)\}.$$
 Then $C(X)$ has coverage at least $1-\alpha$.
 
 Fixed parameter, varying data: test. Fixed data, varying parameter: confidence set.
+
+For the full two-way proof, see [[Test confidence duality]].
