@@ -29,19 +29,17 @@ $$
 
 ## Solution
 
-Let
-
 $$
 S=\sum_{i=1}^n X_i.
 $$
 
-The likelihood is
+Under $H_0$,
 
 $$
-L(\lambda)\propto e^{-n\lambda}\lambda^S.
+S\sim \operatorname{Poisson}(n\lambda_0).
 $$
 
-The likelihood ratio in favor of $\lambda_1$ over $\lambda_0$ is
+By Neyman–Pearson lemma, since
 
 $$
 \frac{L(\lambda_1)}{L(\lambda_0)}
@@ -50,37 +48,24 @@ e^{-n(\lambda_1-\lambda_0)}
 \left(\frac{\lambda_1}{\lambda_0}\right)^S.
 $$
 
-Since $\lambda_1>\lambda_0$, this ratio is increasing in $S$.
-
-By [[Neyman-Pearson lemma]], the most powerful level $\alpha$ test rejects for large $S$:
+is increasing in $S$, the most powerful level $\alpha$ test rejects for large $S$. Hence
 
 $$
-\varphi(X)=1(S>c)+\gamma 1(S=c).
+\phi(X)=1(S>c)+r1(S=c),
 $$
 
-Under $H_0$,
+where $c$ is chosen such that
 
 $$
-S\sim\operatorname{Poisson}(n\lambda_0).
+P_{\lambda_0}(S>c)\le \alpha \le P_{\lambda_0}(S\ge c),
 $$
 
-Choose $c$ and $\gamma$ so that
+and
 
 $$
-P_{\lambda_0}(S>c)+\gamma P_{\lambda_0}(S=c)=\alpha.
-$$
-
-Equivalently,
-
-$$
-\gamma=
+r=
 \frac{\alpha-P_{\lambda_0}(S>c)}{P_{\lambda_0}(S=c)}
-$$
-
-for a cutoff $c$ satisfying
-
-$$
-P_{\lambda_0}(S>c)\le\alpha\le P_{\lambda_0}(S\ge c).
+.
 $$
 
 ## Links
