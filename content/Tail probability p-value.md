@@ -31,7 +31,14 @@ $$
 p_\theta(x)=P_\theta(W(X)\ge W(x)).
 $$
 
-By the probability integral transform applied to the null distribution of the tail statistic,
+The lecture proves this by setting $W^*=-W$ and writing
+
+$$
+p_\theta(X)=F_{W^*}(W^*(X)\mid\theta),
+$$
+
+where $F_{W^*}(\cdot\mid\theta)$ is the null cdf of $W^*$.
+By the probability integral transform applied to this null distribution,
 
 $$
 P_\theta(p_\theta(X)\le \alpha)\le \alpha.

@@ -7,6 +7,10 @@ topics:
 tags:
   - statistics
   - confidence-sets
+source:
+  - "[[Topic 5 revised]]"
+pages:
+  - page_007.png
 ---
 
 # Coverage probability

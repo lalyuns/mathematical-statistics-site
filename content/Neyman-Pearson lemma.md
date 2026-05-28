@@ -29,6 +29,38 @@ $$H_0:\theta=\theta_0,\qquad H_A:\theta=\theta_A,$$
 
 The test rejects where $L(\theta_A)>kL(\theta_0)$, randomizing on the boundary if needed.
 
+In the lecture notation, define
+
+$$
+C_0=\{x:L(\theta_A)>kL(\theta_0)\},
+\qquad
+C_1=\{x:L(\theta_A)=kL(\theta_0)\}.
+$$
+
+Let
+
+$$
+P_{\theta_0}(X\in C_0)=\alpha_\ell\le\alpha,
+\qquad
+P_{\theta_0}(X\in C_0\cup C_1)=\alpha_u\ge\alpha.
+$$
+
+Then the size $\alpha$ LR test has test function
+
+$$
+\varphi(X)=I_{C_0}(X)+
+\frac{\alpha-\alpha_\ell}{\alpha_u-\alpha_\ell}I_{C_1}(X).
+$$
+
+Its null rejection probability is
+
+$$
+E_{\theta_0}[\varphi(X)]
+=\alpha_\ell+
+\frac{\alpha-\alpha_\ell}{\alpha_u-\alpha_\ell}(\alpha_u-\alpha_\ell)
+=\alpha.
+$$
+
 ## Proof
 
 Let $\varphi$ be the LR test and $\psi$ any other level $\alpha$ test. We need

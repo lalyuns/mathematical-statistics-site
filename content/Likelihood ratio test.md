@@ -24,4 +24,25 @@ A size $\alpha$ LRT uses
 
 $$\varphi(x)=1(\lambda(x)<\lambda^*)+\gamma 1(\lambda(x)=\lambda^*).$$
 
+The lecture writes the boundary randomization as
+
+$$
+\varphi(x)=I(\lambda(x)<\lambda^*)
++\frac{\alpha-\alpha_\ell}{\alpha_u-\alpha_\ell}I(\lambda(x)=\lambda^*),
+$$
+
+where
+
+$$
+\sup_{\theta\in\Theta_0}P_\theta(\lambda(X)<\lambda^*)=\alpha_\ell\le\alpha
+$$
+
+and
+
+$$
+\sup_{\theta\in\Theta_0}P_\theta(\lambda(X)\le\lambda^*)=\alpha_u\ge\alpha.
+$$
+
+The convention $0/0=0$ is used if the boundary has no null probability.
+
 The boundary term $\gamma$ is [[Boundary randomization]]. For simple hypotheses, LRT is justified by [[Neyman-Pearson lemma]].

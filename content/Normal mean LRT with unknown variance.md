@@ -26,6 +26,59 @@ The [[Likelihood ratio test]] reduces to rejecting large
 
 $$\left|\frac{\bar X_n-\mu_0}{S_n/\sqrt n}\right|.$$
 
-Thus the exact LRT is the two-sided one-sample t test. A separate [[Asymptotic test]] uses [[Wilks theorem]] and $\chi^2_1$.
+In the lecture notation,
+
+$$
+\Theta_0=\{(\mu_0,\sigma^2):\sigma^2>0\},
+\qquad
+\Theta=\{(\mu,\sigma^2):-\infty<\mu<\infty,\sigma^2>0\}.
+$$
+
+So $\dim(\Theta)-\dim(\Theta_0)=2-1=1$.
+
+The restricted and unrestricted variance MLEs are
+
+$$
+\hat\sigma_0^2=\frac1n\sum_{i=1}^n(X_i-\mu_0)^2,
+\qquad
+\hat\sigma_n^2=\frac1n\sum_{i=1}^n(X_i-\bar X_n)^2.
+$$
+
+The LRT rejects for small
+
+$$
+\lambda(X_1,\ldots,X_n)
+=\left(\frac{\hat\sigma_n^2}{\hat\sigma_0^2}\right)^{-n/2},
+$$
+
+which is equivalent to rejecting for large
+
+$$
+\frac{(\bar X_n-\mu_0)^2}{\hat\sigma_n^2}.
+$$
+
+With
+
+$$
+S_n=\sqrt{\frac{n}{n-1}\hat\sigma_n^2},
+\qquad
+T_n=\frac{\bar X_n-\mu_0}{S_n/\sqrt n},
+$$
+
+the exact size $\alpha$ LRT has test function
+
+$$
+\varphi(T_n)=1_{\{|T_n|>t_{n-1,1-\alpha/2}\}}.
+$$
+
+A separate [[Asymptotic test]] uses
+
+$$
+-2\log\lambda(X_1,\ldots,X_n)
+=n(\log\hat\sigma_n^2-\log\hat\sigma_0^2)
+\xrightarrow{d}\chi^2_1
+$$
+
+under $H_0$.
 
 Related: [[t confidence interval]], [[Test inversion]].

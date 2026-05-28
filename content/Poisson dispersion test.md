@@ -26,6 +26,27 @@ The LR deviance is
 
 $$2\sum_{i=1}^n X_i\log\left(\frac{X_i}{\bar X}\right).$$
 
+The likelihood-ratio statistic itself is
+
+$$
+\lambda(X_1,\ldots,X_n)
+=
+\prod_{i=1}^n
+\left(\frac{\bar X}{X_i}\right)^{X_i}
+e^{X_i-\bar X},
+\qquad
+\bar X=\frac1n\sum_{i=1}^nX_i.
+$$
+
+Therefore
+
+$$
+-2\log\lambda(X_1,\ldots,X_n)
+=-2\sum_{i=1}^n
+\left((X_i-\bar X)+X_i\log\frac{\bar X}{X_i}\right)
+=2\sum_{i=1}^nX_i\log\frac{X_i}{\bar X}.
+$$
+
 A Taylor approximation gives
 
 $$\frac{1}{\bar X}\sum_{i=1}^n(X_i-\bar X)^2\approx\chi^2_{n-1}.$$

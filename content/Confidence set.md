@@ -23,6 +23,28 @@ $$\inf_\theta P_\theta(\theta\in C(X))=1-\alpha.$$
 
 The infimum makes the coefficient a worst-case [[Coverage probability]].
 
+The probability
+
+$$
+P_\theta(\theta\in C(X))
+$$
+
+is the coverage probability of $C(X)$ covering the true parameter $\theta$.
+
+For a real-valued parameter, a confidence interval is usually written
+
+$$
+(L(X),U(X)),
+$$
+
+where both endpoints are estimators and
+
+$$
+L(x)\le U(x)
+$$
+
+for every sample point $x$.
+
 Confidence sets can be built by inverting acceptance regions of tests. See [[Test confidence duality]].
 
 Related: [[Test inversion]], [[Test confidence duality]], [[t confidence interval]].
